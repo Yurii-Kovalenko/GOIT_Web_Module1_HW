@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2024-01-04T20:21:12.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="6SqusHs0qHPqYA_ebrdY" version="22.1.16" type="device">
+  <diagram name="Страница — 1" id="2p5YJZM37ergCFuKhi8I">
+    <mxGraphModel dx="1194" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Record" id="-ChSXMhocR-K-OnuMtBR-1">
+          <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="440" y="40" width="310" height="450" as="geometry">
+              <mxRectangle x="80" y="80" width="100" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-2" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;+ name: str&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ birthday: str&lt;div style=&quot;font-size: 14px;&quot;&gt;+ address: str&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ email: str&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ phones: list[str]&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ notes: list[str]&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-1">
+          <mxGeometry y="26" width="310" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-1">
+          <mxGeometry y="140" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-4" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;+ edit_name(name: str)&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ get_name(): str&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ add_birthday(birthday: str)&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ del_birthday()&lt;br style=&quot;font-size: 14px;&quot;&gt;+ add_address(address: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ del_address()&lt;br style=&quot;font-size: 14px;&quot;&gt;+ add_email(email: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ del_email()&lt;br style=&quot;font-size: 14px;&quot;&gt;+ add_phone(phone: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ del_phone(phone: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ edit_phone(phone_old: str, phone_new: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ list_phones(self): list[str]&lt;br style=&quot;font-size: 14px;&quot;&gt;+ add_note(note: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ del_note(note: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ edit_note(old_note: str, new_note: str)&lt;br style=&quot;font-size: 14px;&quot;&gt;+ list_notes(): list[str]&lt;br style=&quot;font-size: 14px;&quot;&gt;+ __str__(): str&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-1">
+          <mxGeometry y="148" width="310" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-8" value="AddressBook" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="320" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-9" value="+ data: dict[name: Record]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-8">
+          <mxGeometry y="26" width="320" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-8">
+          <mxGeometry y="60" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-11" value="+ add_record(record: Record)&lt;br&gt;+ find_by_name(name_search: str): Record&lt;br&gt;+ delete(name_search: str)&lt;br&gt;+ find_by_string(string: str): str&lt;br&gt;+ show_contacts(records: list[Record]): str&lt;br&gt;+ upcoming_birthdays(number_of_days: int): str&lt;br&gt;+ find_by_note(string: str): list&lt;br&gt;+ show_notes(notes: list): str&lt;br&gt;+ load_from_file()&lt;br&gt;+ save_to_file()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="-ChSXMhocR-K-OnuMtBR-8">
+          <mxGeometry y="68" width="320" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="-ChSXMhocR-K-OnuMtBR-14" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="1" y="-189" relative="1" as="geometry">
+            <mxPoint x="360" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+            <mxPoint x="122" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
